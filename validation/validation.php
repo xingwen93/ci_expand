@@ -32,7 +32,7 @@ class validation {
 
     //检验在utf-8下是否是中文
     function is_chinese($str){
-        return preg_match('/[^\x00-\x80]/', $str) ? true : false;;
+        return preg_match('/[^\x00-\x80]/', $str) ? true : false;
     }
 
     //检验是否是英文
